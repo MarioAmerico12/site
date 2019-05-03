@@ -1,0 +1,358 @@
+/*salvar como estilos.css*/
+/*
+Vamos definir as configurações padrões do corpo da página,
+dos principais comandos e do parágrafo
+*/
+
+body.principal{
+    margin: 0;
+    padding: 0;
+    background-color:lightgray;
+    font-family: Helvetica, sans-serif;
+    font-size: 62.2%;
+    color: #333;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Helvetica, sans-serif;
+    font-size: 62.2%;
+    color: #333;
+}
+h1, h2, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+.home{
+    margin-left: 50px;
+    width: 90%;
+    height: 365px;
+     
+}
+img.header{
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 200px;
+    background-color: #ccc;
+}
+.imgheader{
+    margin-top: 75px;
+    margin-left: 5px;
+    float: left;
+}
+
+header.fatec{
+    width: 1220px;
+    margin-left: 0px;
+    height: 325px;
+
+}
+
+/*
+
+*/
+a:link, a:visited{
+    color: gray;
+    background: white;
+}
+
+.imgnav{
+    height: 50px;
+    width: 100px;
+    padding: 10px 20px 10px 25px;
+}
+nav  {
+    height: 70px;
+    width: 90%;
+    position: fixed;
+    background:#F0F8FF;
+    font-size: 0.8em;
+} 
+
+nav ul{
+    padding: 0px 20px 0px 15px;
+    margin: -50px 0px 0px 200px;
+    font-family: Arial;
+    font-size: 3.0em;
+    font-weight: bolder;
+}
+
+nav li {
+    display: inline;
+    padding: 80px;
+}
+
+nav li a {
+     text-decoration: none;
+}
+
+nav li a:link,nav li a:visited{  
+    color:#278BE4;            
+    background-color:#F0F8FF;
+}
+nav li a:link,nav li a:hover{
+    color:#FFAA00;
+}
+
+.isso { /* Drop-down */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.dropdown{
+    display: inline-block;
+    padding: 2px;
+}
+
+.continua {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.continua a {
+    color: gray;
+    padding: 12px 14px;
+    font-size: 0.5em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.continua a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .continua {
+    display: block;
+}
+/*  */
+
+section{
+    margin: 0 auto;
+    padding: 0px;
+    height: 872px;
+    width: 90%;
+    background: #fff;
+    border: solid 0px ;
+}
+
+img.article{
+    float: right;
+    padding: 7px;
+}
+
+article {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 53px 0 20px 180px;
+}
+aside{
+    width: 300px;
+    height: 260px;
+    float: left;
+    margin: 20px 0 20px 70px;
+    
+}
+aside.mapa{
+    width: 430px;
+    height: 400px;
+    text-align: center;
+    margin: 55px 30px 0px 100px;
+
+}
+.contato{
+    text-align: center;
+    width: 600px;
+    height: 750px;
+    margin: 70px 30px 20px 380px;
+
+}
+
+h3{
+    font-size: 2.5em;
+}
+article h2, .fatec h2, aside h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 0 10px 100px;
+}
+
+article p, .fatec p{
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0 0 10px 100px;
+}
+
+article.fatec{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 50px 0 20px 120px;
+    
+}
+
+article.professor{
+    width: 900px;
+    height: 1600px;
+    margin: 100px 0 20px 180px;
+    border: solid #ddd9ce 1px;
+}
+article.professorli{
+     width: 900px;
+    height: 2400px;
+    margin: 100px 0 20px 180px;
+    border: solid #ddd9ce 1px;
+}
+article.professorvirgilio{
+     width: 900px;
+    height: 3400px;
+    margin: 100px 0 20px 180px;
+    border: solid #ddd9ce 1px;
+}
+
+img.professor{
+    float: left;
+    padding: 7px;
+}
+h3{
+    text-align: center;
+}
+h3.cartilha{
+    text-align: left;
+    padding-left: 100px;
+}
+p.link{
+    text-align: right;
+}
+
+.bases{
+    height: 400px;
+    width: 800px;
+    margin-top: 80px;
+    float: right;
+    border: solid #ddd9ce 1px;
+}
+
+
+footer {
+    height:80px;
+    clear: both;
+    background: #278BE4;
+    padding: 30px 40px 20px 10px;
+    border-top: 2px solid #054B8A;
+    text-align: center;
+    color: white;
+
+}
+
+.fa{
+    padding: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px 20px;
+    border-radius: 50%;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div.form {
+    font-family: Arial;
+    font-size: 1.5em;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.botao1{
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: green;
+    font-family: 'Arial';
+
+}
+div.galeria{
+  border: 1px solid #ccc;
+  height: 250px;
+}
+
+div.galeria:hover {
+  border: 1px solid #777;
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.responsive {
+  padding: 10px 5px 10px 10px;
+  float: left;
+  width: 23.0%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3.port{
+    margin-top: 100px;
+    background-color: red;
+    color: white;
+}
+section.fabiana{
+    width: 800px;
+    margin-top: 50px;
+}
+
+section.virgilio{
+    width: 800px;
+    margin-top: 100px;
+    }

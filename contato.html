@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html">
+<html lang="pt-br">
+    <head>
+        <title>Contato</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body class="principal">
+
+        <section>
+            <nav>
+                <img class="imgnav" alt="logo" longdesc="" src="imagens/logotiposem.png" />
+                <ul>
+                    <li><a tabindex="1" class="active" title="By Mário" href="index.html"> HOME </a></li>
+                    <li><a tabindex="2"title="Fatec" href="fatec.html"> FATEC </a></li>
+                    <li class="dropdown">
+                        <a tabindex="3"title="Disciplinas" href="#"> DISCIPLINAS </a>
+                        <div class="continua">
+                            <a href="algoritimo.html">Algoritmo</a>
+                            <a href="bases.html">Bases da Internet</a>
+                            <a href="criacao.html">Criação de Conteúdo</a>
+                            <a href="design.html">Design Digital</a>
+                            <a href="ingles.html">Inglês</a>
+                            <a href="matematica.html">Matemática</a>
+                            <a href="portugues.html">Português</a>
+                            <a href="padroes.html">Padrões de Projetos</a>
+                        </div>
+                    </li>
+                    <li><a tabindex="4" title="Contato" href="contato.html"> CONTATO </a></li>
+
+                </ul>			
+            </nav>
+
+            <article class="contato">
+
+                <h3>Preencha o formulário abaixo</h3>  
+                                  
+                    <div class="form">
+                        <form  id="formulario" name="formulario" action="script.js" method="post">
+                            <label for="nome">Nome:</label>
+                            <input type="text" required name="nome" placeholder="Digite o seu Nome">
+                            <label for="email">E-mail:</label>
+                            <input   type="email" required name="email" placeholder="Digite seu E-mail">
+                            <label for="cidade">Cidade:</label>
+                            <input  type="text" required name="cidade" placeholder="Digite a sua cidade">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea style="resize: none" cols="55" rows="10" name="mensagem"></textarea> 
+                            <input  class="botao1" type="button" name="Button1" value="Enviar"
+                                    onclick="botao()"/>
+                        </form>
+                    </div>
+                </article> 
+            <footer>
+                <i><a href="https://www.facebook.com/" target="blank" class="fa fa-facebook"></a></i>
+                <i><a href="https://www.instagram.com/?hl=pt-br" target="blank" class="fa fa-instagram"></a></i>
+                <i><a href="https://www.linkedin.com/" class="fa fa-linkedin" target="blank" ></a></i>
+                <i><a href="https://web.whatsapp.com/" class="fa fa-whatsapp" target="blank" ></a></i>
+                <p>Copyright &copy; 2018 - Todos os direitos reservados. Desenvolvido por Mário Americo. </p>
+            </footer>	
+        </section>
+    </body>
+</html>
